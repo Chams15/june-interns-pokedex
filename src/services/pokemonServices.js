@@ -1,4 +1,4 @@
-import * as pokemonRepository from '../repositories/pokemonRepository.js';
+import * as pokemonRepository from '../repositories/pokemonRepositories.js';
 import { config } from '../config/index.js';
 
 /**
