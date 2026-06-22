@@ -1,4 +1,4 @@
-import * as pokemonRepository from '../repositories/pokemonRepositories.js';
+import * as pokemonRepository from '../repositories/pokemonRepository.js';
 import { config } from '../config/index.js';
 
 /**
@@ -71,7 +71,7 @@ const formatPokemonData = (pokemon, species = null) => {
     captureRate: species?.capture_rate || 0,
     baseHappiness: species?.base_happiness || 0
   };
-};  
+};
 
 /**
  * Get a single, fully-formatted Pokemon. Returns null if not found.

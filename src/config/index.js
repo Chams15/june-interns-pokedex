@@ -14,7 +14,7 @@ export const config = {
   },
 
   // Pagination settings
-  pagination: { 
+  pagination: {
     defaultLimit: parseInt(process.env.DEFAULT_PAGE_LIMIT, 10) || 20,
     maxSearchLimit: parseInt(process.env.MAX_SEARCH_LIMIT, 10) || 1000
   }
